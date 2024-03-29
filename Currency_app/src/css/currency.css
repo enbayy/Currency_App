@@ -1,0 +1,87 @@
+.currency-main {
+    margin-top: 50px;
+    border: 1px solid rgb(118, 118, 118);
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-up {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.amount-input {
+    width: 160px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.first-currency-option {
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.second-currency-option {
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.result-input {
+    width: 160px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.title-box {
+    background-color: #5E5D5D;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.title {
+    font-family: Arial;
+    color: #fff;
+}
+
+.button-main {
+    margin: 30px;
+}
+
+.button {
+    width: 130px;
+    height: 45px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: Arial;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 25px;
+}
