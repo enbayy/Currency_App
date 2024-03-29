@@ -4,7 +4,14 @@ import Currency from "./components/Currency";
 
 function App() {
   return (
-    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <Currency />
     </div>
   );
